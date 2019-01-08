@@ -1,0 +1,2 @@
+ifconfig | grep 'broadcast' | tail -c 15
+arp -a

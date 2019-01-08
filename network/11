@@ -1,0 +1,2 @@
+traceroute slash16.org | grep ' 1 '
+# And then Ctrl+Z, first network will be your answer
