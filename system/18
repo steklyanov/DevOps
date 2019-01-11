@@ -1,0 +1,5 @@
+kill
+# usage ps -ef | grep ssh
+# pstree -p also show all PID
+# check PID of your ssh
+# kill -9 PID

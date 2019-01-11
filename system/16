@@ -1,0 +1,3 @@
+crontab -e - command to open cron redactor
+crontab -l - show existing crontabs
+***** [command] - minute, hour, day of mounth, month, day of week
