@@ -1,1 +1,1 @@
-ifconfig | cut -f1 | cut -d: -f1 | sed /^$/d
+ifconfig -l

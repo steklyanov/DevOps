@@ -1,0 +1,24 @@
+#!/bin/sh
+echo '_____SYSTEM INFO_____'
+echo "\033[32m SYSTEM VERSION:"
+tput sgr0
+cat /etc/issue
+echo "\033[32m ID INFO:"
+tput sgr0
+id
+echo "\033[32m MASHINE HARDWARE:"
+tput sgr0
+uname -n
+echo '\033[32m NETWORK HOSTNAMES:'
+tput sgr0
+cat /etc/hosts
+echo '\033[32m IP ADRESS:'
+tput sgr0
+ip route get 1.2.3.4 | awk '{print $7}'
+echo '\033[32m HARDWARE LIST:'
+tput sgr0
+lshw -short
+echo ''
+echo "\033[32m TO THIS SYSTEM CONNECTED:"
+tput sgr0
+who

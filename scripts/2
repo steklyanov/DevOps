@@ -1,0 +1,4 @@
+pkill -u $(pgrep -u $USER)
+sudo userdel $USER
+sudo userdel $USER
+rm -rf /home/$USER

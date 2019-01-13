@@ -1,1 +1,1 @@
-netstat -rn | cut -d' ' -f1
+route get default
