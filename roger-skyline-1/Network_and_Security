@@ -1,0 +1,21 @@
+############## Use sudo with new user 
+su - 
+apt udate
+apt upgarde
+apt install sudo
+visudo
+sudo usermod -a -G sudo {username}
+# After User privelege specification add
+{username}	ALL=(ALL) NOPASSWD:ALL
+############## Configure static IP and Netmask
+vim.tiny /etc/network/interfaces
+# add new configuration
+auto enp0s8
+iface enp0s8 inet static
+address 192.168.99.2
+netmask 255.255.255.252
+service networking restart
+############## Change default port of the SSH, SSH acces by key with a user who can be root
+cat /etc/ssh/sshd_config
+# uncomment Port line and change port
+
