@@ -1,0 +1,23 @@
+# to watch all current services:
+# ls -la /etc/init.d/
+# service --status-all
+
+# - apache-htcacheclean - cleans apache disk cache
+# - apache2 - apache server
+# - avahi-daemon - detect services in local network
+# console-setup.sh
+# cron - autoload
+# - cups - printer system manager
+# - cups-browsed - same as previous, but in network
+# dbus -  inter-process communication mechanism
+# hwclock.sh - system time
+# keyboard-setup.sh 
+# kmod - module for updating krenel 
+# networking
+# procps - monitoring system process
+# rsyslog - error log
+# - saned - another scanner util
+# udev - device manager 
+# -  x11-common - content file structer to install X windows system
+
+service {servicename} stop

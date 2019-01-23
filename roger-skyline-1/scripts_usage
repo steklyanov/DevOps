@@ -1,0 +1,5 @@
+create update_script.sh
+make it executable chmod +x update_script.sh
+add it to crontab sudo vim /etc/crontab
+0 4 * * 1 root/home/USER/update_script.sh  >> /var/log/update_script.log
+@reboot root/home/USER/update_script.sh  >> /var/log/update_script.log 
