@@ -1,1 +1,2 @@
 docker inspect -f '{{.Config.Env}}' spawning-pool
+# printenv give you much more data
