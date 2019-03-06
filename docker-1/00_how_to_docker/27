@@ -1,1 +1,1 @@
-docker service logs -f orbital-command
+docker service logs -f engineering-bay 2>&1 | grep "engineering-bay.1"
