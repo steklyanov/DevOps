@@ -1,0 +1,1 @@
+docker service create -d --name engineering-bay --network overmind --replicas=2 -e OC_USERNAME=orbital_command -e OC_PASSWD=orbital-command 42school/engineering-bay
