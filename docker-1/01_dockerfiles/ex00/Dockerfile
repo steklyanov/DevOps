@@ -1,5 +1,5 @@
 FROM alpine
-RUN apk update -y && \
-	apk upgrade -y && \
-	apk add -y vim
+RUN apk update && \
+	apk upgrade && \
+	apk add vim
 ENTRYPOINT vim
